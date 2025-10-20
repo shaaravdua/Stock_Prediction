@@ -4,4 +4,6 @@ models/
 *.pkl
 *.zip
 *.tar
-*.mp4
+*.mp4*.zip
+*.xlsx
+models/
