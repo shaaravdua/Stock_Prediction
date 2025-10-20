@@ -2,7 +2,7 @@ flask
 pandas
 numpy
 tensorflow
-yfinance
+yfinance==2.58
 newsapi-python
 vaderSentiment
 joblib
@@ -10,3 +10,4 @@ openpyxl
 plotly
 requests
 scikit-learn
+
