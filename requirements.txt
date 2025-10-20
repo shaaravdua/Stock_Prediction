@@ -1,0 +1,11 @@
+flask
+pandas
+numpy
+tensorflow
+yfinance
+newsapi-python
+vaderSentiment
+joblib
+openpyxl
+plotly
+requests
