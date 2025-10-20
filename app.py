@@ -13,7 +13,7 @@ import plotly.express as px # <-- Import Plotly
 app = Flask(__name__)
 
 # --- Section 1: API Keys and Clients ---
-NEWSAPI_API_KEY = "76e4ed517fc6400990d1175f8086d047" 
+NEWSAPI_API_KEY = os.environ.get('NEWSAPI_API_KEY')
 newsapi = NewsApiClient(api_key=NEWSAPI_API_KEY)
 vader_analyzer = SentimentIntensityAnalyzer()
 
@@ -182,4 +182,5 @@ def predict():
 
 if __name__ == '__main__':
     print("Starting Flask server...")
+
     app.run(debug=False)
